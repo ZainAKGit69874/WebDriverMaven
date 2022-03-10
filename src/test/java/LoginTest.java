@@ -25,6 +25,8 @@ public class LoginTest {
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("identifierId")).sendKeys("zainahmadkhan99@gmail.com");
 		driver.findElement(By.id("Passwd")).sendKeys("sddsf");
+		driver.findElement(By.xpath("//input[@name = 'zain']"));
+		
 	}
 	
 	@AfterSuite
